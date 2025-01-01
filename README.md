@@ -75,12 +75,26 @@ The code is structured to represent the three main phases illustrated in the dia
 
 The notebooks should be executed in the order listed above to ensure proper workflow and reproducibility.
 
-### Pre-training
-1.  Select the desired dataset in the second cell of the notebook, for example, `Dataset.UH_Dataset`.
-2. 
+### Pre-training Notebook Guide
 
+1. **Select the Dataset**  
+   In the second cell of the notebook, choose the appropriate dataset file by specifying `Dataset.<Dataset file>`. For example:
+   ```python
+   Dataset.UH_Dataset
+2. **Set the Experiment Name**  
+   In the third cell (interface cell), assign a value to `Exp_name`. By default, logs and snapshots will be stored in the following directory structure:   
 
+```bash
+<root_dir>/Results/<Dataset file>/DA/Exp_<Exp_name>
+<root_dir>/Results/<Dataset file>/Exp_<Exp_name>
+<root_dir>/Results/<Dataset file>/Source/Exp_<Exp_name>
+<root_dir>/Results/<Dataset file>/lightning_logs/Exp_<Exp_name>
+```
 
+- The `DA` folder contains the checkpoints for the adversarial training phase.  
+- The `Source` folder contains the checkpoints for the pre-training phase.  
+- The `Exp_<Exp_name>` folder contains ready-to-use models.  
+- The `lightning_logs` folder contains TensorBoard logs for tracking experiments and runs.
 
-### References
+## References
 [1]: Hsiuhan Lexie Yang and Melba M. Crawford, “Domain Adaptation with Preservation of Manifold Geometry for Hyperspectral Image Classification,” IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 9, no. 2, pp. 543–555, 2016.
