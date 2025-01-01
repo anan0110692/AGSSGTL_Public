@@ -75,7 +75,9 @@ The code is structured to represent the three main phases illustrated in the dia
 
 The notebooks should be executed in the order listed above to ensure proper workflow and reproducibility.
 
-
+### Pre-training
+1.  Select the desired dataset in the second cell of the notebook, for example, `Dataset.UH_Dataset`.
+2. 
 
 
 
