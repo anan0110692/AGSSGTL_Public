@@ -36,10 +36,19 @@ In geospatial image analysis, domain shifts caused by differences between datase
 $ git clone https://github.com/anan0110692/ATTENTION-GUIDED-GAN.git
 $ cd AGSSTL
 ```
+
 1. Setting Up the Environment
 ```bash
 python -m venv .venv
 source .venv/bin/activate  
 pip install -r requirements.txt
 ```
-   
+### Datasets
+
+Ensure the `Datafiles` folder exists. If it does not, create it using the following command (Linux):
+
+```bash
+mkdir -p <root_dir>/Datasets/Datafiles
+```
+Once the folder is created, all data files should be put  in:
+```<root_dir>/Datasets/Datafiles```
