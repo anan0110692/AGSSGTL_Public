@@ -52,4 +52,20 @@ mkdir -p <root_dir>/Datasets/Datafiles
 ```
 Once the folder is created, all data files should be put  in:
 ```<root_dir>/Datasets/Datafiles```
-* **UH Dataset**
+* **Download Datafiles Folder**
+
+
+The datafiles folder  can be downloaded from the following link: [Google Drive Link](https://drive.google.com/drive/folders/1A1yYsHM48_Om39orlCQQQAw030ZuMb0w?usp=sharing).
+
+The datasets included are:
+
+- **UH Dataset** (refer to [Link](https://machinelearning.ee.uh.edu/2013-ieee-grss-data-fusion-contest/))
+- **Botswana Dataset** (refer to [Hsiuhan Lexie Yang and Melba M. Crawford, “Domain Adaptation with
+Preservation of Manifold Geometry for Hyperspectral Image Classifica-
+tion,” IEEE Journal of Selected Topics in Applied Earth Observations
+and Remote Sensing, vol. 9, no. 2, pp. 543–555, 2016.])
+- **C2Sseg-AB Dataset** (refer to [Link](https://github.com/danfenghong))
+
+For reproducibility, it is highly recommended to download the datafiles folder for consistent results.
+
+  
