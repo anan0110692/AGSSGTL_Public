@@ -64,7 +64,7 @@ The datasets included are:
 - **C2Sseg-AB Dataset** (refer to [Link](https://github.com/danfenghong))
 
 
-   For reproducibility, it is highly recommended to download the provided datafiles folder for consistent results.
+For reproducibility, it is highly recommended to download the provided datafiles folder for consistent results.
 ## Running the Code
 
 The code is structured to represent the three main phases illustrated in the diagram above:
