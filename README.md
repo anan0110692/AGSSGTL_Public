@@ -34,7 +34,7 @@ In geospatial image analysis, domain shifts caused by differences between datase
 0. Clone the repo:
 ```bash
 $ git clone https://github.com/anan0110692/ATTENTION-GUIDED-GAN.git
-$ cd AGSSTL
+$ cd AGSSGTL
 ```
 
 1. Setting Up the Environment
