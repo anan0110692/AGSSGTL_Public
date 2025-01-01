@@ -60,12 +60,23 @@ The datafiles folder  can be downloaded from the following link: [Google Drive L
 The datasets included are:
 
 - **UH Dataset** (refer to [Link](https://machinelearning.ee.uh.edu/2013-ieee-grss-data-fusion-contest/))
-- **Botswana Dataset** (refer to [Hsiuhan Lexie Yang and Melba M. Crawford, “Domain Adaptation with
-Preservation of Manifold Geometry for Hyperspectral Image Classifica-
-tion,” IEEE Journal of Selected Topics in Applied Earth Observations
-and Remote Sensing, vol. 9, no. 2, pp. 543–555, 2016.])
+- **Botswana Dataset** (refer to [1])
 - **C2Sseg-AB Dataset** (refer to [Link](https://github.com/danfenghong))
+  For reproducibility, it is highly recommended to download the provided datafiles folder for consistent results.
+## Running the Code
 
-For reproducibility, it is highly recommended to download the datafiles folder for consistent results.
+The code is structured to represent the three main phases illustrated in the diagram above:
 
-  
+1. **Pre-training Phase**: Implemented in the `Pre-train` notebook.
+2. **Adversarial Training Phase**: Implemented in the `Adversarial-train` notebook.
+3. **Inference Phase**: Implemented in the `Test` notebook.
+
+The notebooks should be executed in the order listed above to ensure proper workflow and reproducibility.
+
+
+
+
+
+
+### References
+[1]: Hsiuhan Lexie Yang and Melba M. Crawford, “Domain Adaptation with Preservation of Manifold Geometry for Hyperspectral Image Classification,” IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 9, no. 2, pp. 543–555, 2016.
