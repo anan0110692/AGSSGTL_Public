@@ -4,7 +4,7 @@
 
 [Attention Guided Semi-Supervised Generative Transfer Learning for Hyperspectral Image Analysis](https://ieeexplore.ieee.org/document/10731899)  
  [Anan Yaghmour](https://github.com/anan0110692),  Saurabh Prasad, Melba M. Crawford
-  (**Oral**)
+
 
 If you find this code useful for your research, please cite our [paper](https://ieeexplore.ieee.org/document/10731899):
 
