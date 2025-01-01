@@ -30,3 +30,9 @@ In geospatial image analysis, domain shifts caused by differences between datase
 * Python 3.9.18
 * PyTorch Version: 2.5.1
 * CUDA Version: 12.4
+### Installation
+0. Clone the repo:
+```bash
+$ git clone https://github.com/anan0110692/ATTENTION-GUIDED-GAN.git
+$ cd ADVENT
+```
