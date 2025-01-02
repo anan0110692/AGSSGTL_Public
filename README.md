@@ -130,7 +130,8 @@ The notebooks should be executed in the order listed above to ensure proper work
  
 3. Run the desired evaluation cell.
 
-### Pre-trained models
-Pre-trained models can be downloaded from 
+### Pre-trained parameters
+Pre-trained parameters can be downloaded from [this Google Drive link](https://drive.google.com/drive/folders/1bVt_3WdXlyMq80Y9cF7XoustsMOKj949?usp=sharing). Each dataset includes two `.pkl` files, corresponding to the pre-training phase and the adversarial training phase. Each `.pkl` file contains a list of model parameters , with a length equal to the number of runs (10).
+
 ## References
 [1]: Hsiuhan Lexie Yang and Melba M. Crawford, “Domain Adaptation with Preservation of Manifold Geometry for Hyperspectral Image Classification,” IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 9, no. 2, pp. 543–555, 2016.
