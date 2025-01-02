@@ -93,7 +93,7 @@ The notebooks should be executed in the order listed above to ensure proper work
 
 - The `DA` folder contains the checkpoints for the adversarial training phase.  
 - The `Source` folder contains the checkpoints for the pre-training phase.  
-- The `Exp_<Exp_name>` folder contains ready-to-use models.  
+- The `Exp_<Exp_name>` folder contains a list of ready-to-use models.  
 - The `lightning_logs` folder contains TensorBoard logs for tracking experiments and runs.
 3. Run all cells
 
