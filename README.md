@@ -129,5 +129,8 @@ The notebooks should be executed in the order listed above to ensure proper work
    
  
 3. Run the desired evaluation cell.
+
+### Pre-trained models
+Pre-trained models can be downloaded from 
 ## References
 [1]: Hsiuhan Lexie Yang and Melba M. Crawford, “Domain Adaptation with Preservation of Manifold Geometry for Hyperspectral Image Classification,” IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 9, no. 2, pp. 543–555, 2016.
