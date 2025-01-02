@@ -97,7 +97,7 @@ The notebooks should be executed in the order listed above to ensure proper work
 - The `lightning_logs` folder contains TensorBoard logs for tracking experiments and runs.
 3. Run all cells
 
-  ### Adversrail-train Notebook Guide
+  ### Adversarial-train Notebook Guide
 
 1. **Select the Dataset**  
    In the second cell of the notebook, choose the appropriate dataset file by specifying `Dataset.<Dataset file>`. For example:
@@ -121,7 +121,7 @@ The notebooks should be executed in the order listed above to ensure proper work
    ```python
    Dataset.UH_Dataset
 2. **Set Adapted Models Path**
-   Typically, this path should be provided after running the Adversrail-train notebook. For example, for an experiment with the name `dummy_DA`, the path would look like:
+   Typically, this path should be provided after running the Adversarial-train notebook. For example, for an experiment with the name `dummy_DA`, the path would look like:
 
 ```bash
 <root_dir>/Results/UH/dummy_DA/UH_lists.pkl
