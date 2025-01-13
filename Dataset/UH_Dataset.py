@@ -1790,4 +1790,20 @@ def DATrain(Dataset,batch_size=3,num_workers=16,Result_path=None,Source_Datamodu
     #   light_DA_model.D_cnn.apply(Apply_Spectral_Norm)
    
     return  light_DA_model.T_cnn,light_DA_model,Checkpoint_callback.best_model_path,DA_Datamodule
+#//////////////////////////Load from state dictionary////////////////////////////////////////
+def load_from_state_dict(path=None):
+    Adpated_models_path= path
+    assert Adpated_models_path is not None, "path cannot be None"
+    with open(Adpated_models_path, 'rb') as file:
     
+        State_list= dill.load(file)  
+    DA_Datamodule_obj=DA_Datamodule()
+    ch_num=DA_Datamodule_obj.ch_num
+    cl_num=DA_Datamodule_obj.cl_num
+    Dummy_batch=DA_Datamodule_obj.get_batch()
+    T_model_my=[]
+    for s_dict in State_list:
+        T_cnn= UNet(ch_num,  cl_num,input_shape=Dummy_batch[0].shape)
+        T_cnn.load_state_dict(s_dict)
+        T_model_my.append(T_cnn)
+    return T_model_my    
