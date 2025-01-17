@@ -132,6 +132,14 @@ The notebooks should be executed in the order listed above to ensure proper work
 
 ### Pre-trained parameters
 Pre-trained parameters can be downloaded from [this Google Drive link](https://drive.google.com/drive/folders/1bVt_3WdXlyMq80Y9cF7XoustsMOKj949?usp=sharing). Each dataset includes two `.pkl` files, corresponding to the pre-training phase and the adversarial training phase. Each `.pkl` file contains a list of model parameters , with a length equal to the number of runs (10).
+### Changing the Backbone Network
+
+To use a backbone network other than **UNet** for the Source/Target model or the Discriminator, modify the dataset-specific Python files located in `<root_dir>/Datasets`. 
+
+- For the **Source/Target model**, adjust the definition of the `UNet` class in the corresponding dataset file.  
+- For the **Discriminator model**, modify the `D` class definition in the same file to implement your desired architecture.
+
+Ensure that the new definitions align with the framework and input/output requirements of the original models to maintain compatibility.
 
 ## References
 [1]: Hsiuhan Lexie Yang and Melba M. Crawford, “Domain Adaptation with Preservation of Manifold Geometry for Hyperspectral Image Classification,” IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 9, no. 2, pp. 543–555, 2016.
