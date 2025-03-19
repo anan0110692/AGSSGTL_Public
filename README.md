@@ -33,8 +33,8 @@ In geospatial image analysis, domain shifts caused by differences between datase
 ### Installation
 0. Clone the repo:
 ```bash
-$ git clone https://github.com/anan0110692/AGSSGTL.git
-$ cd AGSSGTL
+$ git clone https://github.com/anan0110692/AGSSGTL_Public.git
+$ cd AGSSGTL_Public
 ```
 
 1. Setting Up the Environment
