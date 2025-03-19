@@ -52,12 +52,8 @@ mkdir -p <root_dir>/Datasets/Datafiles
 ```
 Once the folder is created, all data files should be put  in:
 ```<root_dir>/Datasets/Datafiles```
-* **Download Datafiles Folder**
 
-
-The datafiles folder  can be downloaded from the following link: [Google Drive Link](https://drive.google.com/drive/folders/1A1yYsHM48_Om39orlCQQQAw030ZuMb0w?usp=sharing).
-
-The datasets included are:
+The datasets included in this study are:
 
 - **UH Dataset** (refer to [Link](https://machinelearning.ee.uh.edu/2013-ieee-grss-data-fusion-contest/))
 - **Botswana Dataset** (refer to [1])
